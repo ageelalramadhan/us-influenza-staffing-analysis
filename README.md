@@ -72,7 +72,7 @@ us-influenza-staffing-analysis/
 | 01 | Excel | Loaded CDC influenza mortality records (66,097 rows). Flagged "Suppressed" cells per CDC small-cell policy. |
 | 02 | Excel · Pivot | Standardized labels, verified uniqueness on (State Code, Year, Month, Age Group), preserved suppressed-cell flags rather than imputing. |
 | 03 | Excel | Cleaned U.S. Census state-population estimates (28,986 county-year rows) and rolled up to State × Year. |
-| 04 | Excel · INDEX/MATCH | Built `State|Year` composite key; merged the cleaned tables into a single state-year master with population, deaths, and mortality rate. |
+| 04 | Excel · INDEX/MATCH | Built `State\|Year` composite key; merged the cleaned tables into a single state-year master with population, deaths, and mortality rate. |
 | 05 | Python · NumPy | Statistical validation: Pearson correlation of population vs. deaths; year-over-year rate comparison. |
 | 06 | Tableau | Built three-layer dashboard: state choropleth (raw deaths) + graduated symbols (population) + symbol-color (rate per 100k). |
 | 07 | Tableau Story | Story-driven dashboard tying raw-counts and rate views so staffing decisions visibly depend on metric choice. |
