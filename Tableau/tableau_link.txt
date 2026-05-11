@@ -1,0 +1,11 @@
+Exercise 2.7 — Influenza Spatial Analysis (2009–2017)
+=======================================================
+
+Interactive Tableau Public workbook:
+https://public.tableau.com/views/Exercise2_7InfluenzaSpatialAnalysis20092017_AA/InfluenzaDeathsPopulation
+
+Workbook layers:
+- State fill (blue scale): total influenza-related deaths
+- Circle size: state population
+- Circle color (white → red): mortality rate per 100,000
+- Year filter: 2009–2017
